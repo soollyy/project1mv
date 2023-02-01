@@ -137,6 +137,14 @@ ul{
     .column {
       width: 100%;
     }
+    .experience{
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        min-width: 100%;
+        padding-right: 5%;
+    }
  }
  
  
