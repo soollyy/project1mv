@@ -1,0 +1,243 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ nav {
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+ }
+ 
+ 
+ 
+ 
+ * {
+    box-sizing: border-box;
+    /*margin: 0;
+    padding: 0;*/
+    background-color: rgb(237, 216, 185);
+ }
+ 
+ 
+ li, a, button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(229, 144, 144);
+    text-decoration: none;
+ }
+ 
+ 
+ header {
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 30px 10%;
+ }
+ 
+ 
+ /*img {
+    justify-content: space-between;
+    align-items: baseline;
+    padding: width=210px height=300px;
+ }*/
+ 
+ 
+ .navigation-links {
+    list-style: none;
+ }
+ 
+ 
+ .navigation-links li {
+    display: inline-block;
+    padding: 30px 60px;
+ }
+ 
+ 
+ .navigation-links li a{
+    transition: all 0.3s ease 0s;
+ }
+ 
+ 
+ .navigation-links li a:hover{
+    color: aquamarine;
+ }
+ 
+ 
+ button{
+    padding: 9px 25px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+ }
+ 
+ 
+ button:hover {
+    background-color: aquamarine;
+    text-shadow: 3cm;
+ }
+ 
+ 
+ /*img {
+    align-items: center;
+    margin: 100px;
+ }*/
+ 
+ 
+ h1 {
+    text-shadow: 2px 2px pink;
+    text-align: left;
+ 
+ 
+ }
+ 
+ 
+ p {
+    text-shadow: 2px 2px pink;
+ 
+ 
+ }
+ 
+ 
+ /*p {
+    text-shadow: 2px 2px pink;
+ 
+ 
+ }*/
+ 
+ 
+ h2{
+    text-shadow: 2px 2px pink;
+    /*text-decoration: underline;
+    font-family: Arial, sans-serif;*/
+ }
+ 
+ 
+ 
+ 
+ .column {
+    float: left;
+    width: 33.3%;
+    height: 33.33%;
+ }
+ 
+ 
+ .row:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+ 
+ 
+ @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+ }
+ 
+ 
+ footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+  }
+ 
+ 
+ .column-left{
+    position: vertical;
+ }
+ 
+ 
+ .column-right{
+    position: vertical;
+ }
+ 
+ 
+ section{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    margin: 10px;
+ }
+ 
+ 
+ .experience{
+    display: flex;
+ }
+ 
+ 
+ .home{
+    display: flex;
+ }
+ 
+ 
+ .title{
+    text-align: left;
+ }
+ 
+ 
+ img {
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    margin: 30px;
+ }
+ 
+ 
+ .title{
+    width: 100%;
+ }
+ 
+ 
+ .image-of-me {
+    display: centre;
+ }
+ 
+ 
+ .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+ }
+ 
+ 
+ .flex-container {
+    display: flex;
+ }
+ 
+ 
+ .whole{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ 
+ p{
+    font-size: 1em;
+ }
+ 
+ 
+ img {
+    display: center;
+    margin: auto;
+ }
+ 
+ 
+ 
+ 
+ /* <p> Pret was my first job during sixth form. I was a full time student and working 20-24 hours a week. i did this full scheduled routine from October 2021-April 2022. After April i decided to take more time into my school work instead of working due to upcoming exams at the time. end of personal information. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+ <p> The british library was my summer job after i completed sixth form. This was my favourite job as i was working in the resturant and barista section and not a lot of people would come so it was a relaxed job. There are 5 coffee bars at the british library and 2 resturants. Throughout the summer i was working in all units. end of personal information. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat. 
+ <p> I worked at boots during year 10 in secondary school as part of work experience scheme. It taught me how people earn their money and allowed me to gain general work skills such as communication and time management skills. This placement was 2 weeks in July 2018 after mock exams. end of personal information. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+ */
+ 
+ 
+ 
